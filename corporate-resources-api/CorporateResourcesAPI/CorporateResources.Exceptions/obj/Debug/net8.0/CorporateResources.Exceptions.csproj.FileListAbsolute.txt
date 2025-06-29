@@ -1,0 +1,12 @@
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Exceptions\bin\Debug\net8.0\CorporateResources.Exceptions.deps.json
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Exceptions\bin\Debug\net8.0\CorporateResources.Exceptions.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Exceptions\bin\Debug\net8.0\CorporateResources.Exceptions.pdb
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Exceptions\obj\Debug\net8.0\CorporateResources.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Exceptions\obj\Debug\net8.0\CorporateResources.Exceptions.AssemblyInfoInputs.cache
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Exceptions\obj\Debug\net8.0\CorporateResources.Exceptions.AssemblyInfo.cs
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Exceptions\obj\Debug\net8.0\CorporateResources.Exceptions.csproj.CoreCompileInputs.cache
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Exceptions\obj\Debug\net8.0\CorporateResources.Exceptions.sourcelink.json
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Exceptions\obj\Debug\net8.0\CorporateResources.Exceptions.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Exceptions\obj\Debug\net8.0\refint\CorporateResources.Exceptions.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Exceptions\obj\Debug\net8.0\CorporateResources.Exceptions.pdb
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Exceptions\obj\Debug\net8.0\ref\CorporateResources.Exceptions.dll

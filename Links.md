@@ -16,6 +16,8 @@ https://medium.com/@rohanayush05/tailwind-meets-angular-17-60de96371157
 https://v17.material.angular.dev/components/button/overview
 https://docs.docker.com/engine/install/ubuntu/
 https://learn.microsoft.com/pt-br/ssms/install/install
+https://learn.microsoft.com/pt-br/aspnet/core/tutorials/first-web-api?view=aspnetcore-9.0&tabs=visual-studio
+https://www.youtube.com/watch?v=bnAuqSgmTyc
 
 ### Assets
 
@@ -48,3 +50,7 @@ After run instalation, open SQL Management Studio and loggin:
 - User Name: sa
 - Password: <your-password>
 - Encrypt: Optional
+
+### Visual Studio Project Migrations
+
+Tools > NuGet package management > Console package management > In project pattern, select CorporateResources.Infrastructure > add-migration <name> > update-database

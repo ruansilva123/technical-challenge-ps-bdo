@@ -1,0 +1,12 @@
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Domain\bin\Debug\net8.0\CorporateResources.Domain.deps.json
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Domain\bin\Debug\net8.0\CorporateResources.Domain.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Domain\bin\Debug\net8.0\CorporateResources.Domain.pdb
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Domain\obj\Debug\net8.0\CorporateResources.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Domain\obj\Debug\net8.0\CorporateResources.Domain.AssemblyInfoInputs.cache
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Domain\obj\Debug\net8.0\CorporateResources.Domain.AssemblyInfo.cs
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Domain\obj\Debug\net8.0\CorporateResources.Domain.csproj.CoreCompileInputs.cache
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Domain\obj\Debug\net8.0\CorporateResources.Domain.sourcelink.json
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Domain\obj\Debug\net8.0\CorporateResources.Domain.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Domain\obj\Debug\net8.0\refint\CorporateResources.Domain.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Domain\obj\Debug\net8.0\CorporateResources.Domain.pdb
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Domain\obj\Debug\net8.0\ref\CorporateResources.Domain.dll

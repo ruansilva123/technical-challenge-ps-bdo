@@ -1,0 +1,16 @@
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\bin\Debug\net8.0\CorporateResources.Application.deps.json
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\bin\Debug\net8.0\CorporateResources.Application.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\bin\Debug\net8.0\CorporateResources.Application.pdb
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\bin\Debug\net8.0\CorporateResources.Domain.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\bin\Debug\net8.0\CorporateResources.Domain.pdb
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\obj\Debug\net8.0\CorporateResources.Application.csproj.AssemblyReference.cache
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\obj\Debug\net8.0\CorporateResources.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\obj\Debug\net8.0\CorporateResources.Application.AssemblyInfoInputs.cache
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\obj\Debug\net8.0\CorporateResources.Application.AssemblyInfo.cs
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\obj\Debug\net8.0\CorporateResources.Application.csproj.CoreCompileInputs.cache
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\obj\Debug\net8.0\CorporateResources.Application.sourcelink.json
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\obj\Debug\net8.0\Corporat.E1A2B880.Up2Date
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\obj\Debug\net8.0\CorporateResources.Application.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\obj\Debug\net8.0\refint\CorporateResources.Application.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\obj\Debug\net8.0\CorporateResources.Application.pdb
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Application\obj\Debug\net8.0\ref\CorporateResources.Application.dll
