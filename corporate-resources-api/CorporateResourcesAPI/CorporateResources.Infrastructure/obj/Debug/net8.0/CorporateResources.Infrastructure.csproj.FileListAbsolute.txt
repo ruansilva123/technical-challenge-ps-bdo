@@ -16,3 +16,7 @@ C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResources
 C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Infrastructure\obj\Debug\net8.0\CorporateResources.Infrastructure.pdb
 C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Infrastructure\obj\Debug\net8.0\CorporateResources.Infrastructure.genruntimeconfig.cache
 C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Infrastructure\obj\Debug\net8.0\ref\CorporateResources.Infrastructure.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Infrastructure\bin\Debug\net8.0\CorporateResources.Communication.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Infrastructure\bin\Debug\net8.0\CorporateResources.Exceptions.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Infrastructure\bin\Debug\net8.0\CorporateResources.Communication.pdb
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Infrastructure\bin\Debug\net8.0\CorporateResources.Exceptions.pdb

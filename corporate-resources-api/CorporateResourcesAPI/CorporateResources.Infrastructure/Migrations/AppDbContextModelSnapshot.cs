@@ -132,6 +132,10 @@ namespace CorporateResources.Infrastructure.Migrations
                     b.Property<int>("ResourceId")
                         .HasColumnType("int");
 
+                    b.Property<string>("Responsible")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("StartReservation")
                         .HasColumnType("datetime2");
 

@@ -1,1 +1,373 @@
-[]
+[
+  {
+    "ContainingType": "CorporateResourcesAPI.Controllers.ReservationController",
+    "Method": "CreateReservation",
+    "RelativePath": "api/Reservation/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Responsible",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartReservation",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndReservation",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "ResourceId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.LocationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.CountryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.Country.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.Country.Locations",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CorporateResources.Domain.Locations.Models.Location, CorporateResources.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.Country.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.Country.CreationDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.Country.UpdateDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.Country.IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.StateId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.State.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.State.Locations",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CorporateResources.Domain.Locations.Models.Location, CorporateResources.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.State.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.State.CreationDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.State.UpdateDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.State.IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.CityId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.CountryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.Country.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.Country.Locations",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CorporateResources.Domain.Locations.Models.Location, CorporateResources.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.Country.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.Country.CreationDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.Country.UpdateDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.Country.IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.StateId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.State.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.State.Locations",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CorporateResources.Domain.Locations.Models.Location, CorporateResources.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.State.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.State.CreationDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.State.UpdateDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.State.IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.CityId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.City",
+        "Type": "CorporateResources.Domain.Cities.Models.City",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.Resources",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CorporateResources.Domain.Resources.Models.Resource, CorporateResources.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.CreationDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.UpdateDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Location.IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.CreationDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.UpdateDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.City.IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.Resources",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CorporateResources.Domain.Resources.Models.Resource, CorporateResources.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.CreationDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.UpdateDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Location.IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Category.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Category.Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Category.Resources",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CorporateResources.Domain.Resources.Models.Resource, CorporateResources.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Category.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Category.CreationDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Category.UpdateDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Category.IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Reservations",
+        "Type": "System.Collections.Generic.ICollection\u00601[[CorporateResources.Domain.Reservations.Models.Reservation, CorporateResources.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.CreationDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.UpdateDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Resource.IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreationDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "UpdateDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CorporateResources.Communication.Responses.GenericResponse\u00601[[CorporateResources.Domain.Reservations.Models.Reservation, CorporateResources.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

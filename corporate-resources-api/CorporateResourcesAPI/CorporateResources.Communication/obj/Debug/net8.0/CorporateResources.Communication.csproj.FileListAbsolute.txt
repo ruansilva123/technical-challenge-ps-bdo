@@ -1,0 +1,12 @@
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Communication\bin\Debug\net8.0\CorporateResources.Communication.deps.json
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Communication\bin\Debug\net8.0\CorporateResources.Communication.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Communication\bin\Debug\net8.0\CorporateResources.Communication.pdb
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Communication\obj\Debug\net8.0\CorporateResources.Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Communication\obj\Debug\net8.0\CorporateResources.Communication.AssemblyInfoInputs.cache
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Communication\obj\Debug\net8.0\CorporateResources.Communication.AssemblyInfo.cs
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Communication\obj\Debug\net8.0\CorporateResources.Communication.csproj.CoreCompileInputs.cache
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Communication\obj\Debug\net8.0\CorporateResources.Communication.sourcelink.json
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Communication\obj\Debug\net8.0\CorporateResources.Communication.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Communication\obj\Debug\net8.0\refint\CorporateResources.Communication.dll
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Communication\obj\Debug\net8.0\CorporateResources.Communication.pdb
+C:\dev-env\technical-challenge-ps-bdo\corporate-resources-api\CorporateResourcesAPI\CorporateResources.Communication\obj\Debug\net8.0\ref\CorporateResources.Communication.dll

@@ -37,6 +37,9 @@
               },
               "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Exceptions\\CorporateResources.Exceptions.csproj": {
                 "projectPath": "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Exceptions\\CorporateResources.Exceptions.csproj"
+              },
+              "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Infrastructure\\CorporateResources.Infrastructure.csproj": {
+                "projectPath": "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Infrastructure\\CorporateResources.Infrastructure.csproj"
               }
             }
           }
@@ -168,7 +171,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Communication\\CorporateResources.Communication.csproj": {
+                "projectPath": "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Communication\\CorporateResources.Communication.csproj"
+              },
+              "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Exceptions\\CorporateResources.Exceptions.csproj": {
+                "projectPath": "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Exceptions\\CorporateResources.Exceptions.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -340,6 +350,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.6, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[9.0.1, )"
             }
           },
           "imports": [
@@ -396,6 +410,9 @@
               "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Communication\\CorporateResources.Communication.csproj": {
                 "projectPath": "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Communication\\CorporateResources.Communication.csproj"
               },
+              "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Domain\\CorporateResources.Domain.csproj": {
+                "projectPath": "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Domain\\CorporateResources.Domain.csproj"
+              },
               "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Exceptions\\CorporateResources.Exceptions.csproj": {
                 "projectPath": "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Exceptions\\CorporateResources.Exceptions.csproj"
               },
@@ -443,7 +460,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[9.0.1, )"
             }
           },
           "imports": [

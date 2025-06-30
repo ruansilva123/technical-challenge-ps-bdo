@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "CorporateResources.Communication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CorporateResources.Communication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CorporateResources.Communication.dll": {}
+        }
+      },
+      "CorporateResources.Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CorporateResources.Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CorporateResources.Exceptions.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CorporateResources.Communication/1.0.0": {
+      "type": "project",
+      "path": "../CorporateResources.Communication/CorporateResources.Communication.csproj",
+      "msbuildProject": "../CorporateResources.Communication/CorporateResources.Communication.csproj"
+    },
+    "CorporateResources.Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../CorporateResources.Exceptions/CorporateResources.Exceptions.csproj",
+      "msbuildProject": "../CorporateResources.Exceptions/CorporateResources.Exceptions.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "CorporateResources.Communication >= 1.0.0",
+      "CorporateResources.Exceptions >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ruanc\\.nuget\\packages\\": {},
@@ -38,7 +73,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Communication\\CorporateResources.Communication.csproj": {
+              "projectPath": "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Communication\\CorporateResources.Communication.csproj"
+            },
+            "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Exceptions\\CorporateResources.Exceptions.csproj": {
+              "projectPath": "C:\\dev-env\\technical-challenge-ps-bdo\\corporate-resources-api\\CorporateResourcesAPI\\CorporateResources.Exceptions\\CorporateResources.Exceptions.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

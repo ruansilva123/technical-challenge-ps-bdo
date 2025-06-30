@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CorporateResources.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250629045919_CreateDataBase")]
-    partial class CreateDataBase
+    [Migration("20250629152024_CreateDatabase")]
+    partial class CreateDatabase
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -134,6 +134,10 @@ namespace CorporateResources.Infrastructure.Migrations
 
                     b.Property<int>("ResourceId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Responsible")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("StartReservation")
                         .HasColumnType("datetime2");

@@ -17,16 +17,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CorporateResources.Application\CorporateResources.Application.csproj" />
     <ProjectReference Include="..\CorporateResources.Communication\CorporateResources.Communication.csproj" />
+    <ProjectReference Include="..\CorporateResources.Domain\CorporateResources.Domain.csproj" />
     <ProjectReference Include="..\CorporateResources.Exceptions\CorporateResources.Exceptions.csproj" />
     <ProjectReference Include="..\CorporateResources.Infrastructure\CorporateResources.Infrastructure.csproj" />
   </ItemGroup>

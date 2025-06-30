@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CorporateResources.Communication\CorporateResources.Communication.csproj" />
+    <ProjectReference Include="..\CorporateResources.Exceptions\CorporateResources.Exceptions.csproj" />
+  </ItemGroup>
+
 </Project>

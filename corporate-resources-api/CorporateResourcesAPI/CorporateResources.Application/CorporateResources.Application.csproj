@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CorporateResources.Domain\CorporateResources.Domain.csproj" />
     <ProjectReference Include="..\CorporateResources.Exceptions\CorporateResources.Exceptions.csproj" />
+    <ProjectReference Include="..\CorporateResources.Infrastructure\CorporateResources.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

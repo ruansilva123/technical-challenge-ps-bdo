@@ -8,7 +8,11 @@ namespace CorporateResources.Domain.Locations.Models
 {
     public class Location : BaseModel
     {
+        public int CountryId { get; set; }
+
         public Country Country { get; set; }
+
+        public int StateId { get; set; }
 
         public State State { get; set; }
 

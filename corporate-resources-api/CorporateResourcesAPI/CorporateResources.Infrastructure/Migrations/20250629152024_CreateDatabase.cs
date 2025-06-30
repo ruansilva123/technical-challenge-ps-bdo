@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CorporateResources.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class CreateDataBase : Migration
+    public partial class CreateDatabase : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -149,6 +149,7 @@ namespace CorporateResources.Infrastructure.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Responsible = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     StartReservation = table.Column<DateTime>(type: "datetime2", nullable: false),
                     EndReservation = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ResourceId = table.Column<int>(type: "int", nullable: false),
