@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-equipments',
@@ -7,6 +8,9 @@ import { Component } from '@angular/core';
   templateUrl: './equipments.component.html',
   styleUrl: './equipments.component.scss'
 })
-export class EquipmentsComponent {
 
+export class EquipmentsComponent {
+  constructor (private toastr: ToastrService) {
+    this.toastr.warning("Equipment page in develop!");
+  }
 }

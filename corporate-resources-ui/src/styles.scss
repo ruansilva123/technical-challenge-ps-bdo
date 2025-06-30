@@ -45,6 +45,12 @@ $corporate-resources-ui-theme: mat.define-light-theme((
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", 'Arial', sans-serif;
+    background-color: #1A1A1A;
+    color: white;
 }
 
-html, body { height: 100vw; }
+html, body { height: 100%; }
+
+.toast-message {
+  background-color: initial !important;
+}

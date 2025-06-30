@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-meeting-room',
@@ -7,6 +8,9 @@ import { Component } from '@angular/core';
   templateUrl: './meeting-room.component.html',
   styleUrl: './meeting-room.component.scss'
 })
-export class MeetingRoomComponent {
 
+export class MeetingRoomComponent {
+  constructor(private toastr: ToastrService) {
+    this.toastr.warning("Meeting Room page in develop!");
+  }
 }
