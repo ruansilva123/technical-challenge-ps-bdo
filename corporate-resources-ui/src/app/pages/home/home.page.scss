@@ -1,0 +1,42 @@
+@import '../../../variables';
+
+.home-content {
+    background-image: linear-gradient(to right, $secondary-color, $primary-color, rgb(41, 41, 228), blue);
+    
+    app-header {
+        position: sticky;
+        top: 0;
+        z-index: 1020;
+        background: $background;
+        opacity: 0.9;
+    }
+    
+    .slogan-section {
+        display: flex;
+        justify-content: space-between;
+        height: 400px;
+
+        img {
+            max-height: 300px;
+        }
+    }
+
+    .content-section {
+        background: $background;
+        flex-grow: 1;
+        min-height: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        article {
+            max-width: 1200px;
+            width: 100%;
+    
+            img {
+                max-height: 250px;
+            }
+        }
+    }
+
+}

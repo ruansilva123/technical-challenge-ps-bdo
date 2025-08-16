@@ -10,12 +10,12 @@ html, body {
 
 body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    background-color: #010409 !important;
+    background-color: $background!important;
     color: $text-color !important;
 }
 
 .custom-primary-button {
-    padding: 14px 28px;
+    padding: 18px 32px;
     background-color: $primary-color;
     color: $text-color;
     border-radius: 10px;

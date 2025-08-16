@@ -6,9 +6,9 @@ import { FooterComponent } from "../../shared/components/footer/footer.component
     selector: 'app-home',
     standalone: true,
     imports: [
-    HeaderComponent,
-    FooterComponent
-],
+        HeaderComponent,
+        FooterComponent
+    ],
     templateUrl: './home.page.html',
     styleUrl: './home.page.scss'
 })
