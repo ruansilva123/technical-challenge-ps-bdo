@@ -1,4 +1,5 @@
 @import './variables';
+@import 'ngx-toastr/toastr';
 
 html, body {
     height: 100%;
@@ -25,4 +26,8 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+.pointer {
+    cursor: pointer;
 }
