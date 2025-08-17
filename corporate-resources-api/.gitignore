@@ -1,0 +1,60 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider IDE
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# User secrets
+secrets.json
+
+# Database files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Test results
+TestResults/
+*.trx
+
+# Node.js modules
+node_modules/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Coverage files
+*.coverage
+*.coveragexml
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# IIS Express
+*.vspscc
