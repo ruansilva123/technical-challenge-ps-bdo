@@ -1,0 +1,42 @@
+@import '../../../variables';
+
+.filterBar {
+    background-color: $background-gray;
+    padding: 8px 16px;
+    border-radius: 5px;
+
+    div {
+        display: grid;
+        grid-auto-flow: column;
+        gap: 10px;
+    }
+}
+
+.page-message {
+    background-color: $primary-color;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+.emptyTable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 2rem;
+
+    img {
+        max-height: 300px;
+    }
+}
+
+.table-wrapper {
+  max-height: 650px;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.table-wrapper table {
+  border-collapse: separate;
+  border-spacing: 0;
+}

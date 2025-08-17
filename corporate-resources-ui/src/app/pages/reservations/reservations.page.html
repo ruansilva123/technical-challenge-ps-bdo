@@ -1,7 +1,103 @@
 <section class="h-100 d-flex flex-column">
     <div class="px-4 py-3 d-flex flex-column flex-grow-1">
         <app-header></app-header>
-        <main class="flex-grow-1"></main>
+        <main class="flex-grow-1">
+            <section>
+                <h1 class="fs-1 mb-5 mt-4">All Reservations</h1>
+                <p class="fs-6 mb-3 page-message">View a complete list of all reservations and loan details in the table below.</p>
+            </section>
+
+            <section class="filterBar mb-3">
+                <form class="custom-form d-flex justify-content-between align-items-center gap-4">
+                    <div>
+                        <mat-form-field>
+                            <mat-label>Item</mat-label>
+                            <input matInput placeholder="Ex. Room 20">
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <mat-label>Category</mat-label>
+                            <input matInput placeholder="Ex. Meeting Room">
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <mat-label>City</mat-label>
+                            <input matInput placeholder="Ex. Joinville">
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <mat-label>Booked By</mat-label>
+                            <input matInput placeholder="Ex. John Doe">
+                        </mat-form-field>
+
+                        <mat-form-field>
+                            <mat-label>Enter a date range</mat-label>
+                            <mat-date-range-input [rangePicker]="picker">
+                                <input matStartDate placeholder="Start date">
+                                <input matEndDate placeholder="End date">
+                            </mat-date-range-input>
+                            <mat-hint>MM/DD/YYYY - MM/DD/YYYY</mat-hint>
+                            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                            <mat-date-range-picker #picker></mat-date-range-picker>
+                        </mat-form-field>
+                    </div>
+                    <div>
+                        <button class="custom-primary-button">
+                            <mat-icon>search</mat-icon>
+                            Search
+                        </button>
+                        <button class="custom-primary-button" matTooltip="Get a new loan" (click)="goToReservationForm()">
+                            <mat-icon>add</mat-icon>
+                            New
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="mb-5 table-wrapper">
+                <table mat-table [dataSource]="dataSource" class="mat-elevation-z8 demo-table">
+                    <ng-container matColumnDef="Item">
+                        <th mat-header-cell *matHeaderCellDef class="fs-6 fw-semibold">Item</th>
+                        <td mat-cell *matCellDef="let element"> {{element.Item}} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="Category">
+                        <th mat-header-cell *matHeaderCellDef class="fs-6 fw-semibold">Category</th>
+                        <td mat-cell *matCellDef="let element"> {{element.Category}} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="City">
+                        <th mat-header-cell *matHeaderCellDef class="fs-6 fw-semibold">City</th>
+                        <td mat-cell *matCellDef="let element"> {{element.City}} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="LoanedTo">
+                        <th mat-header-cell *matHeaderCellDef class="fs-6 fw-semibold">Loaned To</th>
+                        <td mat-cell *matCellDef="let element"> {{element.LoanedTo}} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="StartReservation">
+                        <th mat-header-cell *matHeaderCellDef class="fs-6 fw-semibold">Start Reservation</th>
+                        <td mat-cell *matCellDef="let element"> {{element.StartReservation}} </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="EndReservation">
+                        <th mat-header-cell *matHeaderCellDef class="fs-6 fw-semibold">End Reservation</th>
+                        <td mat-cell *matCellDef="let element"> {{element.EndReservation}} </td>
+                    </ng-container>
+
+                    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                </table>
+
+                @if (dataSource.length === 0) {
+                    <div class="emptyTable">
+                        <img class="img-fluid" src="assets/svg/undraw_to-the-moon.svg" alt="To The Moon">
+                        <p class="fs-6 mt-3">No data to display...</p>
+                    </div>
+                }
+            </section>
+        </main>
     </div>
     
     <app-footer></app-footer>
