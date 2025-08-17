@@ -27,6 +27,7 @@ namespace CorporateResourcesAPI
 
             // Repositories settings
             builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
+            builder.Services.AddScoped<IResourceRepository, ResourceRepository>();
 
             // Services settings
             builder.Services.AddScoped<IReservationService, ReservationService>();

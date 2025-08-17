@@ -6,6 +6,8 @@ namespace CorporateResourcesAPI.Services.Interfaces
 {
     public interface IReservationService : IBaseService<Reservation>
     {
-        Task<List<ReservationDetailDto>> ListAll(ReservationFilterDto Filters);
+        Task<List<ReservationDetailDto>> ListAll(ReservationFilterDto filters);
+
+        Task Create(NewReservationDto reservation);
     }
 }

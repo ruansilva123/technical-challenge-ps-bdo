@@ -18,19 +18,21 @@ namespace CorporateResourcesAPI.Controllers
         }
 
         [HttpPost("Create")]
-        public async Task<ActionResult<Reservation>> CreateReservation([FromForm] Reservation reservation)
+        public async Task<ActionResult<Reservation>> CreateReservation([FromForm] NewReservationDto reservation)
         {
             try
             {
-                return Ok(_reservationService.Create(reservation));
+                await _reservationService.Create(reservation);
+
+                return Ok();
             }
             catch (BadRequestException ex)
             {
-                return BadRequest(ex);
+                return BadRequest(ex.ErrorMessage);
             }
             catch (InternalServerErrorException ex)
             {
-                return StatusCode(ex.StatusCode, ex);
+                return StatusCode(ex.StatusCode, ex.ErrorMessage);
             }
         }
 
